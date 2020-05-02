@@ -1,3 +1,5 @@
+//A simple code that reads a csv file from a sqlite database to display the required information using the library sqlite3
+
 import sqlite3
 conn = sqlite3.connect("New.db")
 print("Db opened!!")
