@@ -26,7 +26,7 @@ def Generate_Ultimate_Password(length = 16):
 
 print(Generate_Ultimate_Password(length = 15))
 
-#Simple UI for the Ultimate Password Generator application
+#Simple UI for the Ultimate Password Generator
 
 from tkinter import *
 import pyperclip
