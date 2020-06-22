@@ -25,3 +25,30 @@ def Generate_Ultimate_Password(length = 16):
   return password
 
 print(Generate_Ultimate_Password(length = 15))
+
+#Simple UI for the Ultimate Password Generator application
+
+from tkinter import *
+import pyperclip
+
+root = Tk()
+root.geometry("400x400")
+passstr = StringVar()
+passlen = IntVar()
+passlen.set(0)
+
+def generate():
+  passstr.set(Generate_Ultimate_Password(length = passlen.get()))
+
+def copytoclipboard():
+  random_password = passstr.get()
+  pyperclip.copy(random_password)
+
+Label(root, text = "Ultimate Password Generator", font ="calibri 20 bold").pack(pady = 3)
+Label(root, text = "Enter password length").pack(pady = 3)
+Entry(root, textvariable = passlen).pack(pady = 3)
+Button(root, text = "Generate Password", command = generate).pack(pady = 7)
+Entry(root, textvariable = passstr).pack(pady = 3)
+Button(root, text = "Copy to Clipboard", command = copytoclipboard).pack()
+
+root.mainloop()
