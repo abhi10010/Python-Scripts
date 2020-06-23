@@ -6,5 +6,5 @@
   <li><strong>ReadCSV.py:</strong> Script to connect and read CSV files using SQLite.</li>
   <li><strong>CommonSortingAlgorithms.ipynb:</strong> Top 5 most common sorting algorithms.</li>
   <li><strong>PasswordGenerator.py:</strong> Script to generate the ultimate password(More than 10 billion possibilites for a 8 letter password) using "random" library and UI using tkinter and pyperclip libraries.</li>
-  <li><strong>Text2Speech.py:</strong> Script to read sentences from a text file and convert them to speech using pyttsx3 library.</li>
+  <li><strong>Text2Speech:</strong> Script to read sentences from a text file(Example: <strong>"TheRoadNotTaken.txt"</strong>) and convert them to speech using pyttsx3 library.</li>
 </ul>
