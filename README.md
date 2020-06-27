@@ -9,4 +9,5 @@
   <li><strong>Text2Speech:</strong> Script to read sentences from a text file(Example: <strong>"TheRoadNotTaken.txt"</strong>) and convert them to speech using pyttsx3 library.</li>
   <li><strong>SolveSudoku.py:</strong> Sudoku solver using simple loops.</li>
   <li><strong>White2GreyBackground:</strong> Script to replace the white background to anycolor/transparent using PIL library with utmost perfection, which is generally required for migration on different e-commerce platforms(Example: <strong>"RenderedImage.jpg"</strong>).</li>
+  <li><strong>WeatherFinder.py:</strong> Find weather of any city using bs4 and requests libraries.</li>
 </ul>
