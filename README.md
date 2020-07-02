@@ -10,5 +10,5 @@
   <li><strong>SolveSudoku.py:</strong> Sudoku solver using <strong>backtracking</strong> algorithm.</li>
   <li><strong>White2GreyBackground:</strong> Script to replace the white background to anycolor/transparent using PIL library with utmost perfection, which is generally required for migration on different e-commerce platforms(Example: <strong>"RenderedImage.jpg"</strong>).</li>
   <li><strong>WeatherFinder.py:</strong> Script to find current weather temperature of any city using bs4 and requests libraries.</li>
-  <li><strong>Scrabble:</strong> Script to find valid words that can be formed with the given letters as an input using Scrabble UK's valid list of words(<strong>"ScrabbleList2019.txt"<\strong>) and arranged according to the points they can fetch.</li>
+  <li><strong>Scrabble:</strong> Script to find valid words that can be formed with the given letters as an input using Scrabble UK's valid list of words(<strong>"ScrabbleList2019.txt"</strong>) and arranged according to the points they can fetch.</li>
 </ul>
